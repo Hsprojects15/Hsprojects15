@@ -1,0 +1,28 @@
+void setup () {
+Serial.begin (9600); pinMode (13, OUTPUT); pinMode (2, OUTPUT); pinMode (4, INPUT);
+6 code | Arduino 1.8.6 Hourly Build 201... - • File Edit Sketch Tools Help
+SO回EE
+code
+void setup() (
+Serial.begin (9600): pinMode (13, 00TPUT) : pinMode (2, OUT PUT) : pinMode (4, INPUT) :
+void 100p0) (
+long duration, distance: digitalWrite (2, HIGH) : delayMicroseconds (100):
+duration - (duration/2) /29: delay (10):
+11 ((distance‹=10) )
+digitallrite (13, HIGH):
+else 11 (distance>10)
+digitallrite (13, LOW);
+}
+void 100p ()f
+long duration, distance; digitalWrite (2,HIGH); delayMicroseconds (100);
+digitalWrite (2,LOW);
+duration=pulseIn (4, HIGH); distance= (duration/2) /29;
+delay (10);
+if ((distance<=10))
+digitalWrite (13,HIGH);
+else if (distance>10)
+｝
+{
+digitalWrite (13,LOW);
+}
+}
